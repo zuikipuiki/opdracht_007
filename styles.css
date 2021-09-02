@@ -1,6 +1,7 @@
 body {
   width: 960px;
   margin: auto;
+  padding-top: 40px;
   color: rgb(59, 57, 57);
   background-color: rgb(247, 192, 172);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -54,11 +55,14 @@ header {
   padding: 0;
   border-radius: 3px;
 }
+
 main {
   border: 5px double rgb(128, 128, 128);
   margin: 0;
   border-radius: 3px;
+  padding-top: 30px;
 }
+
 article {
   margin: 0 60px;
 }
@@ -122,6 +126,8 @@ a:hover {
 }
 .my_img {
   border: 1px outset gray;
+  border: 10px solid rgb(255, 255, 255);
+  border-style: outset;
 }
 
 ol,
@@ -161,7 +167,8 @@ footer {
   align-items: center;
   margin: auto;
   display: block;
-  padding-top: 40px;
+  border: 10px solid rgb(255, 255, 255);
+  border-style: outset;
 }
 .text_index3 {
   box-sizing: border-box;
